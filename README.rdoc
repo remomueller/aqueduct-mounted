@@ -1,0 +1,17 @@
+= Aqueduct Repository - Mounted {<img src="https://secure.travis-ci.org/remomueller/aqueduct-mounted.png"/>}[http://travis-ci.org/remomueller/aqueduct-mounted] {<img src="https://gemnasium.com/remomueller/aqueduct-mounted.png" alt="Dependency Status" />}[https://gemnasium.com/remomueller/aqueduct-mounted]
+
+Connects mounted directory files through Aqueduct
+
+== Installation
+
+Aqueduct Repository - Mounted can be installed from rubygems.org using:
+
+  gem install aqueduct-mounted
+
+Or update your Gemfile to include:
+
+  gem 'aqueduct-mounted'
+
+== Copyright
+
+Copyright (c) 2012 Remo Mueller. See {LICENSE}[https://github.com/remomueller/aqueduct-mounted/blob/master/LICENSE] for further details.
