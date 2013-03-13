@@ -1,6 +1,6 @@
 # Compiling the Gem
 # gem build aqueduct-mounted.gemspec
-# gem install ./aqueduct-mounted-x.x.x.gem
+# gem install ./aqueduct-mounted-x.x.x.gem --no-ri --no-rdoc --local
 #
 # gem push aqueduct-mounted-x.x.x.gem
 # gem list -r aqueduct-mounted
@@ -20,8 +20,9 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/remomueller"
   s.summary     = "Serve mounted directory files through Aqueduct"
   s.description = "Connects to mounted directory files using Aqueduct"
+  s.license     = 'CC BY-NC-SA 3.0'
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-mounted.gemspec", "CHANGELOG.rdoc", "LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-mounted.gemspec", "CHANGELOG.md", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.1"
